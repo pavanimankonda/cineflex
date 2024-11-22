@@ -1,70 +1,49 @@
-# Cineflex - Movie Streaming App
+# Cineflex: Movie Booking Application
 
-Cineflex is a simple movie streaming web app that allows users to explore popular movies, trending titles, and top-rated films. The app fetches movie data from The Movie Database (TMDb) API and displays them in different categories, such as Netflix Originals, Trending Now, and Top Rated.
+Cineflex is an interactive movie booking platform that allows users to explore movie showtimes, view movie details, and book tickets seamlessly. Built with **React** for the front-end and powered by a movie data API, it provides an intuitive user experience for movie enthusiasts.
 
 ## Features
-- View **Featured Movies** with a description and action buttons (Play and Add to My List).
-- Browse movies in categories: **Netflix Originals**, **Trending Now**, and **Top Rated**.
-- **Watch Trailers** by clicking on movie posters.
-- **Login/Logout** toggle to simulate user session.
 
-## Tech Stack
-- **HTML**: For structure.
-- **CSS**: For styling.
-- **JavaScript**: For dynamic movie fetching and interactions.
-- **TMDb API**: For fetching movie data and trailers.
+- **Browse Movies**: Explore a list of movies currently showing.
+- **Movie Details**: View detailed information about each movie.
+- **Search Movies**: Search for movies by title, genre, or language.
+- **Book Tickets**: Select showtimes and book tickets.
+- **User Authentication**: Sign up, log in, and log out functionality.
+- **Responsive Design**: Optimized for mobile and desktop devices.
 
-## Getting Started
+## Technologies Used
 
-To run this project locally, follow these simple steps:
+- **React.js**: Front-end framework.
+- **Movie API**: For fetching movie data.
+- **Bootstrap**: For responsive design.
+- **JWT Authentication**: For secure user login and logout.
 
-### Installation
+## Setup Instructions
 
-1. **Clone the repository**:
+1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/cineflex.git
+    git clone https://github.com/pavanimankonda/cineflex.git
     ```
-
-2. **Navigate to the project folder**:
+2. Navigate to the project directory:
     ```bash
     cd cineflex
     ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the application:
+    ```bash
+    npm start
+    ```
+5. Open `http://localhost:3000` in your browser to view the app.
 
-3. **Open `index.html` in your browser**.
+## API Key
 
-### API Key Setup
-
-In the `script.js` file, replace the `YOUR_API_KEY` placeholder with your actual API key:
+This project uses the **Cineflex API** to fetch movie data. Replace the `API_KEY` in the code with your own API key:
 
 ```javascript
-const API_KEY = 'YOUR_API_KEY'; // Replace with your actual API key
+const API_KEY = '19f84e11932abbc79e6d83f82d6d1045';
 ```
-Get your API key by signing up at TMDb.
-
-### Dependencies
-- Bootstrap (for responsive layout)
-- Font Awesome (for icons)
-These are linked in the index.html file, so no need for installation.
-
-### File Structure
-
-cineflex/
-
-│
-
-├── index.html        # Main HTML file
-
-├── style.css         # CSS file for styling
-
-├── script.js         # JavaScript file for fetching data and handling interactions
-
-└── README.md         # Project documentation
-### Usage
-Browse Movies: Scroll through movie categories.
-Watch Trailers: Click a movie poster to watch the trailer in a modal.
-Login/Logout: Click the Login/Logout button to toggle user session.
-### Troubleshooting
-Ensure you have a valid API key in the script.js file.
-Check your internet connection for fetching movie data.
-### License
-This project is open source, and you are free to use and modify it.
+## Contribution
+Contributions are welcome! Feel free to submit a pull request.
