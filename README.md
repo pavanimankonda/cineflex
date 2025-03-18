@@ -1,4 +1,4 @@
-# Cineflex: Movie Booking Application
+# Cineflex
 
 Cineflex is an interactive movie booking platform that allows users to explore movie showtimes, view movie details, and book tickets seamlessly. Built with **React** for the front-end and powered by a movie data API, it provides an intuitive user experience for movie enthusiasts.
 
